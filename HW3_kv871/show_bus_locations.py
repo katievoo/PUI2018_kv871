@@ -2,6 +2,7 @@
 #got help from christine and cyrus
 #martha showed me how to convert to a py file and run that in my terminal
 
+from __future__ import print_function
 
 import pylab as pl
 import pandas as pd
@@ -12,11 +13,9 @@ try:
     import urllib2 as urllib
 except ImportError:
     import urllib.request as urllib
-    
-from __future__ import print_function
+   
 
-%pylab inline
-pl.rc ('font', size=15)
+
 this_key= 'f7ec514a-23b0-4fc6-a89e-e9408bee9b6c'
 this_bus='B44'
 
@@ -29,8 +28,6 @@ data = response.read().decode("utf-8")
 data = json.loads(data)
 
 
-url = 'http://bustime.mta.info/api/siri/vehicle-monitoring.json?key=' + this_key + '&VehicleMonitoringDetailLevel=calls&LineRef=' + this_bus
-print (url)
 response = urllib.urlopen(url)
 data = response.read().decode("utf-8")
 data = json.loads(data)
