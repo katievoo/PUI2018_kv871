@@ -1,5 +1,5 @@
 
-#got help from christine and cyrus
+#got help from christine and cyrus and martha and nathan
 #martha showed me how to convert to a py file and run that in my terminal
 
 from __future__ import print_function
@@ -16,8 +16,8 @@ except ImportError:
    
 
 
-this_key= 'f7ec514a-23b0-4fc6-a89e-e9408bee9b6c'
-this_bus='B44'
+this_key=str(sys.argv[1])
+this_bus=str(sys.argv[2])
 
 
 url = 'http://bustime.mta.info/api/siri/vehicle-monitoring.json?key=' + this_key + '&VehicleMonitoringDetailLevel=calls&LineRef=' + this_bus
