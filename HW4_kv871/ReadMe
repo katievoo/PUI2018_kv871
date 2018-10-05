@@ -1,1 +1,9 @@
 
+# Assignment 1 
+In this assignment I demonstrated the Central Limit Theorum by generating samples of data with different distributions but the same mean. For each of 5 distributions I generated 100 samples of different sizes. When all of the 100 sample means were plotted together on a histogram, the data looked to be distributed normally around the mean, no matter what the sampling distribution shape. This demonstrates the CLT which says that the larger a sample is, the more normally distributed it looks. 
+
+# Assignment 2 
+In this assignment I pulled the Citibike data relevent to being able to accept or reject my null hypothesis.
+
+# Assignment 3
+In this assignment I generated the z score for the given data set and was able to reject the null hypothesis.
