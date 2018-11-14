@@ -10,4 +10,6 @@ Eve M. helped me understand that the model that used the sm.add_constant had a d
 Eve M. and Nathan also showed me what their graphs looked like for #4, but I did not look at their code for the graphs. 
 
 
+**Assignment 3** 
 
+Colin and Sam M. helped me figure out how to read in the data. They told me specifically which method (pd.read_csv, etc.) they used for each dataset. They also told me the number of rows I needed to skip on the excel downloads from the world bank. 
