@@ -14,5 +14,5 @@ Eve M. and Nathan also showed me what their graphs looked like for #4, but I did
 
 Colin and Sam M. helped me figure out how to read in the data. They told me specifically which method (pd.read_csv, etc.) they used for each dataset. They also told me the number of rows I needed to skip on the excel downloads from the world bank. 
 
-I also worked with Sam Burns on this assignment. Specifically on the error bars. 
+I also worked with Sam Burns on this assignment. Specifically on the error bars and to make sure that both quantities are roughly of the same order of magnitude on the modeling section. 
 
