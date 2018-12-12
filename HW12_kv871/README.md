@@ -1,5 +1,9 @@
 
 
+Assignment 1: 
+I received help from Professor Bianco on manipulating my array and graphing the fourier transformation. I also received some help from Pablo with the concepts. 
+
+
 
 Assignment 2: 
 
